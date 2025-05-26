@@ -51,3 +51,27 @@ manim -pql pythagorean_theorem.py PythagoreanTheorem
 ## Output
 
 The animation will be approximately 30 seconds long and will be saved as an MP4 file. 
+
+---
+
+## Bouncing Balls Animation
+
+This project also includes an animation of multiple balls bouncing within a confined space, created using the manim library.
+
+### Features:
+- Multiple balls with different colors.
+- Balls are affected by gravity.
+- Balls bounce off the edges of the screen with a defined elasticity.
+
+### Running the Animation:
+To generate the video for the bouncing balls animation, run:
+```bash
+manim -pqh bouncing_balls.py BouncingBalls
+```
+This command will render a high-quality (1080p, 60fps) video and preview it. The output file will be saved in the `media/videos/bouncing_balls/1080p60/` directory.
+
+For a quicker, lower-quality preview, you can use:
+```bash
+manim -pql bouncing_balls.py BouncingBalls
+```
+This will produce a 480p, 15fps video.
