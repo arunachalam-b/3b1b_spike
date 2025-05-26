@@ -43,7 +43,7 @@ class BouncingBalls(Scene):
             # Update velocity due to gravity
             ball.velocity += gravity * dt
             # Update position
-            ball.move(ball.velocity * dt)
+            ball.shift(ball.velocity * dt)
 
             ball_center = ball.get_center()
             
